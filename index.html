@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ankur Goel | Full Stack Developer</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+  <header>
+    <nav>
+      <h3>Ankur Goel</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="reveal">
+    <span class="badge">Full Stack Developer</span>
+    <h1>Designing scalable backend systems<br/>and cloud-native solutions<br><br></h1>
+    <div class="skills-summary">
+        
+        <!-- Python -->
+        <div>
+            <strong>Python</strong>
+            <ul>
+                <li>OOPs, SOLID principles</li>
+                <li>Memory management, garbage collection</li>
+                <li>Exception handling, custom exceptions, logging & debugging</li>
+                <li>Data processing with Pandas & NumPy</li>
+                <li>Libraries: Boto3, Requests, Pydantic, Loguru</li>
+            </ul>
+        </div>
+
+        <!-- DATABASE & WAREHOUSE -->
+        <div>
+            <strong>Databases & Data Warehouse</strong>
+            <ul>
+                <li>PostgreSQL & MySQL</li>
+                <li>DynamoDB – partition keys, GSIs</li>
+                <li>Snowflake – views, data modeling, query optimization</li>
+                <li>Data integration with Fivetran for analytics consumption</li>
+            </ul>
+        </div>
+
+        <!-- FastAPI -->
+        <div class="break">
+            <strong>FastAPI</strong>
+            <ul>
+                <li>RESTful API design & OpenAPI documentation</li>
+                <li>JWT & OAuth2 authentication</li>
+                <li>Dependency Injection & middleware</li>
+                <li>Async endpoints & background tasks</li>
+                <li>API versioning & pagination</li>
+                <li>Testing with Pytest & moto</li>
+            </ul>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div>
+            <strong>Cloud & DevOps</strong>
+            <ul>
+                <li>AWS: EC2, Lambda, S3, RDS, DynamoDB etc.</li>
+                <li>Infrastructure as Code using Terraform</li>
+                <li>Microservices architecture</li>
+                <li>Disaster Recovery (Active-Active, Active-Passive)</li>
+                <li>Monitoring & logging with CloudWatch</li>
+            </ul>
+        </div>
+
+    </div>
+    <a class="btn" href="#projects">View Projects</a>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="reveal">
+    <h2>Resume</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Executive Summary</h3>
+        <p class="muted">
+          Experienced Software Developer with 3+ years of experience building scalable applications using Python and FastAPI.<br>
+          Strong expertise in RESTful APIs, OOPs, DSA, microservices, and cloud-native architectures.<br>
+          Proven record in fintech projects, cloud optimization, and disaster recovery on AWS.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Professional Skills</h3>
+        <div class="grid grid-3" style="margin-top:10px">
+          <span class="badge">Python</span>
+          <span class="badge">FastAPI</span>
+          <span class="badge">AWS</span>
+          <span class="badge">Terraform</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">Snowflake</span>
+          <span class="badge">Pandas</span>
+          <span class="badge">Boto3</span>
+          <span class="badge">Microservices</span>
+          <span class="badge">Appian</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:20px">
+      <h3>Work Experience</h3>
+      <p><strong>Wipro Technologies – Blackstone Ltd. (SP-GFF)</strong> | Gurgaon <span class="muted">(Feb 2025 – Present)</span></p>
+      <ul class="muted" style="margin:10px 0 16px 18px">
+        <li>Leading migration of legacy workflows from React and .NET to Appian and FastAPI.</li>
+        <li>Optimized Snowflake views integrated with Sigma Dashboards, improving query performance by 59%.</li>
+        <li>Enhanced FastAPI microservices for dynamic financial document mapping across global funds.</li>
+      </ul>
+
+      <p><strong>Wipro Technologies – Blackstone Ltd. (Treasury Management System)</strong> | Gurgaon <span class="muted">(Apr 2023 – Feb 2025)</span></p>
+      <ul class="muted" style="margin:10px 0 16px 18px">
+        <li>Designed and deployed 20+ microservices, with 12 in production.</li>
+        <li>Automated month-end bank statement processing for 15+ banks, saving 60 hours/month.</li>
+        <li>Implemented disaster recovery strategies achieving RTO &lt; 100ms.</li>
+        <li>Provisioned AWS infrastructure using Terraform, improving deployment consistency.</li>
+      </ul>
+
+      <p><strong>Wipro Technologies – Blackstone Ltd. (Cloud Platform Engineering)</strong> | Gurgaon <span class="muted">(Sep 2022 – Apr 2023)</span></p>
+      <ul class="muted" style="margin-left:18px">
+        <li>Designed and implemented multi-region AWS architectures across Tel Aviv, London, and Singapore.</li>
+        <li>Built cost-efficient cloud solutions using EC2, S3, VPC, RDS, DynamoDB, and Lambda.</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:20px">
+      <h3>Education & Achievements</h3>
+      <p><strong>B.Tech – Computer Science</strong>, Meerut Institute of Engineering & Technology (2018–2022)</p>
+      <p class="muted">Graduated with 81% (First Division)</p>
+      <ul class="muted" style="margin-top:10px; margin-left:18px">
+        <li>AWS Solution Architect – Associate (Score: 830)</li>
+        <li>Designed DR plan enabling regional failover within 30 minutes</li>
+        <li>Recipient of Bright Beginning and Dream Player awards</li>
+      </ul>
+    </div>
+    <br>
+    <a class="btn outline" href="assets/AnkurGoelResume.pdf">Download Resume</a>
+</section>
+
+  <!-- Projects -->
+  <section id="projects" class="reveal">
+    <h2>*Projects</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Secure Password Manager</h3>
+        <p class="muted">FastAPI, AES-GCM, JWT, MySQL</p>
+        <p style="margin-top:8px">Secure vault with encryption, RBAC, and audit logging.</p>
+        <a href="#" target="_blank">GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Treasury Microservices Platform</h3>
+        <p class="muted">FastAPI, AWS, Terraform</p>
+        <p style="margin-top:8px">Scalable microservices for financial data processing.</p>
+        <a href="#" target="_blank">GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Shareholding Pattern Visualizer</h3>
+        <p class="muted">Python, Pandas, JavaScript</p>
+        <p style="margin-top:8px">Data-driven visualization of company shareholding patterns.</p>
+        <a href="#" target="_blank">GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a backend-focused software developer with a strong interest in cloud engineering, distributed systems, and fintech platforms.<br>
+        I specialize in designing scalable backend architectures, building reliable APIs, and automating infrastructure to create secure and high-performance systems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="reveal">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p><b>Email:</b> <a href="mailto:ankurgoel.1822@gmail.com">ankurgoel.1822@gmail.com</a></p>
+      <p><b>Phone:</b> +91 9756932495</p>
+      <p><b>LinkedIn:</b> <a href="https://linkedin.com/in/ankurgoel" target="_blank">linkedin.com/in/ankurgoel</a></p>
+      <p><b>Github:</b> <a href="https://github.com/AnkurGoel-15">github.com/ankur_goel</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="muted">© 2025 Ankur Goel</p>
+  </footer>
+
+</body>
+
+</html>
